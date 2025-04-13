@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sistema de Compras"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="#094D92" />
+
+    <TextView
+        android:id="@+id/textDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escolha seu produto:"
+        android:fontFamily="monospace"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbArroz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arroz 1 Kg (R$ 2,69)"
+        android:fontFamily="monospace"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/cbLeite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leite longa vida (R$ 2,70)"
+        android:fontFamily="monospace"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/cbCarne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carne Friboi (R$ 16,70)"
+        android:fontFamily="monospace"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/cbFeijao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feijão carioquinha 1Kg (R$ 3,38)"
+        android:fontFamily="monospace"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/cbCoca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refrigerante Coca-Cola 2L (R$ 3,00)"
+        android:fontFamily="monospace"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Total: R$ 0,00"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total da Compra"
+        android:fontFamily="monospace"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="calcular"
+        android:textAlignment="center"
+        app:backgroundTint="#094D92" />
+</LinearLayout>
