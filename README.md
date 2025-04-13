@@ -32,9 +32,9 @@ O projeto foi desenvolvido utilizando CheckBoxes para representar os produtos, p
 
 ## Estrutura do Repositório
 ```
-Calculadora_IMC/
+ListaDeCompras/
 ├── app-debug.apk    # Arquivo compilado do aplicativo
-├── projeto.zip      # Código-fonte do projeto(pasta src/CalculadoraIMC.zip)
+├── projeto.zip      # Código-fonte do projeto(pasta src/ListaDeCompras.zip)
 ├── README.md        # Documentação do projeto
 ```
 
