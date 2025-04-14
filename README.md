@@ -1,44 +1,54 @@
-# Apliativo de Compras com CheckBox - Android
+# 🛒 Aplicativo de Sistema de Compras - Android
 
-## Descrição do Projeto:
-Este aplicativo simula um sistema de compras simples em que o usuário seleciona produtos desejados com **CheckBoxes** e visualiza o **valor total da compra**. Foi desenvolvido em Java com Android Studio.
+## 📌 Descrição do Projeto
+Este aplicativo Android simula um sistema de compras simples onde o usuário pode selecionar produtos através de **CheckBoxes** e visualizar automaticamente o **valor total da compra**. Desenvolvido em **Java** no **Android Studio**, o app tem como objetivo demonstrar o uso prático de estruturas condicionais e componentes visuais básicos da plataforma.
 
-### **Principais Funcionalidades:**
-- Marcar e desmarcar itens com CheckBox;
-- Cálculo automático do total dos produtos;
-- Interface simples e funcional.
+### ✅ Funcionalidades:
+- Seleção de produtos com **CheckBox**;
+- Cálculo automático do valor total com base nos itens selecionados;
+- Interface clara, organizada e de fácil navegação.
 
-## Informações do Desenvolvedor
+---
+
+## 👩‍💻 Informações da Desenvolvedora
 **Nome:** Stephany Aliyah Guimarães Eurípedes de Paula  
-**Curso:** Ciência da Computação - 3° Semestre
+**Curso:** Ciência da Computação - 3° Semestre  
 
-## Processo de Desenvolvimento
-O projeto foi desenvolvido utilizando CheckBoxes para representar os produtos, permitindo ao usuário selecionar os itens desejados. A lógica de cálculo do valor total foi implementada com base em uma estrutura condicional, somando apenas os valores dos produtos marcados.
+---
 
+## 🛠️ Processo de Desenvolvimento
+O projeto foi estruturado utilizando **CheckBoxes** para representar os produtos disponíveis, permitindo ao usuário selecionar os itens desejados para compra. A lógica de cálculo do valor total foi implementada com **condições simples**, somando apenas os valores dos itens marcados.
 
-### **Desafios Superados:**
-- Implementar o somatório dos itens com base em seleção do usuário;
-- Exibir valor total dinamicamente.
+### 🚧 Desafios Superados:
+- Implementação do cálculo conforme seleção dos produtos;
+- Garantir uma visualização clara e funcional dos elementos na tela.
 
-### **Decisões Estratégicas:**
-- Organização visual com LinearLayout para facilitar o alinhamento dos elementos;
-- Códigos otimizados com métodos de verificação individual por item.
+### 💡 Decisões Estratégicas:
+- Utilização de **LinearLayout** para manter uma estrutura visual limpa e alinhada;
+- Organização do código com verificações individuais por item para facilitar a leitura e manutenção.
 
-## Como Executar o Aplicativo
-1. **Baixar o APK**: [Download do APK](./app-debug.apk)  Ou ir na pasta src.
-2. Transferir o arquivo para um dispositivo Android.
-3. Instalar e abrir o aplicativo.
-4. Inserir os dados solicitados (altura e peso) e obter o resultado do IMC.
+---
 
-## Estrutura do Repositório
+## ▶️ Como Executar o Aplicativo
+1. **Baixar o APK**: [Download do APK] ou acessar a pasta `src/ListaDeCompras.apk`;
+2. Transferir o arquivo para um dispositivo Android;
+3. Instalar e abrir o aplicativo;
+4. Marcar os produtos desejados e conferir o total na tela.
+
+---
+
+## 📁 Estrutura do Repositório
 ```
-ListaDeCompras/
-├── app-debug.apk    # Arquivo compilado do aplicativo
-├── projeto.zip      # Código-fonte do projeto(pasta src/ListaDeCompras.zip)
-├── README.md        # Documentação do projeto
+src/ListaDeCompras.apk/zip
+├── app-debug.apk       # APK compilado
+├── projeto.zip         # Código-fonte do projeto
+├── README.md           # Documentação do projeto
 ```
 
-## Tecnologias Utilizadas
-- **Java** para a lógica de programação (linguagem utilizada);
-- **Android Studio** como ambiente de desenvolvimento;
+---
+
+## 🧰 Tecnologias Utilizadas
+- **Java** (lógica de programação)
+- **Android Studio** (ambiente de desenvolvimento)
+- **Componentes**: CheckBox, Button, TextView, LinearLayout
 
