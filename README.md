@@ -30,7 +30,7 @@ O projeto foi estruturado utilizando **CheckBoxes** para representar os produtos
 ---
 
 ## ▶️ Como Executar o Aplicativo
-1. **Baixar o APK**: [Download do APK] ou acessar a pasta `src/ListaDeCompras.apk` e extrair o arquivo;
+1. **Baixar o APK**: [Download do APK] ou acessar a pasta `src/ListaDeCompras.zip` e extrair o arquivo;
 2. Transferir o arquivo para um dispositivo Android;
 3. Instalar e abrir o aplicativo;
 4. Marcar os produtos desejados e conferir o total na tela.
